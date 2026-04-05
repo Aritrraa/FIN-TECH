@@ -75,16 +75,74 @@ FIN-TECH/
 ├── README.md
 
 ---
+## ▶️ Setup Instructions (Detailed Explanation)
 
-## ▶️ Setup Instructions
+Follow these steps to run the project on your local machine:
 
+### 1️⃣ Clone the Repository
+
+```bash
 git clone https://github.com/Aritrraa/FIN-TECH.git
-cd FIN-TECH
-npm install
-npm run dev
+```
 
-Open in browser:
+* This command downloads (copies) the entire project from GitHub to your computer.
+* You’ll get a folder named **FIN-TECH** containing all project files.
+
+---
+
+### 2️⃣ Navigate to the Project Folder
+
+```bash
+cd FIN-TECH
+```
+
+* `cd` means *change directory*.
+* This moves you into the project folder where all source code and configuration files exist.
+
+---
+
+### 3️⃣ Install Dependencies
+
+```bash
+npm install
+```
+
+* This installs all required packages (libraries) listed in `package.json`.
+* These include React, Vite, chart libraries, and other dependencies needed for the app to run.
+* A folder called `node_modules` will be created automatically.
+
+---
+
+### 4️⃣ Start the Development Server
+
+```bash
+npm run dev
+```
+
+* This starts the Vite development server.
+* It compiles your code and runs the app locally.
+* Any changes you make will automatically reflect in the browser (hot reload).
+
+---
+
+### 5️⃣ Open in Browser
+
+```
 http://localhost:5173
+```
+
+* This is the local URL where your app runs.
+* Open it in any browser (Chrome recommended).
+* You will see your finance dashboard UI.
+
+---
+
+### ⚠️ Notes
+
+* Make sure **Node.js** is installed on your system.
+* If port `5173` is busy, Vite may run on another port (check terminal output).
+* Always run commands inside the project folder.
+
 
 ---
 

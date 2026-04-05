@@ -120,14 +120,14 @@ Built as part of a frontend evaluation project to demonstrate UI, state manageme
 ## 📸 Screenshots
 
 ### 🏠 Dashboard
-![Dashboard](screenshots/Dashboard.png)
+![Dashboard](Screenshots/Dashboard.png)
 
 ### 💳 Transactions
-![Transactions](screenshots/Transactions.png)
+![Transactions](Screenshots/Transactions.png)
 
 ### 📊 Analytics
-![Analytics](screenshots/Insights.png)
-![Analytics](screenshots/Budget.png)
+![Analytics](Screenshots/Insights.png)
+![Analytics](Screenshots/Budget.png)
 
 
 
